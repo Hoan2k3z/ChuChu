@@ -1,0 +1,98 @@
+.styled-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.line {
+  flex: 1;
+  border-top: 2px solid white;
+  margin: 0 10px; 
+  margin-bottom: 6px;
+  width: 50px;
+}
+.menu-buffet-item {
+  padding: 20px 0;
+  
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  color:white;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+ /* Add top and bottom margins */
+}
+
+.uk-list .uk-flex {
+  padding-left: 10px; 
+}
+
+.item-left {
+  text-align: left;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+  font-size: 18px;
+}
+.menu-containers {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 50px; 
+  font-size: 18px;
+  padding: 20px;
+ 
+}
+
+.vertical-line {
+  border-left: 1px solid rgb(253, 246, 246);
+  font-size: 18px;
+}
+
+.additional-divs {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  gap: 10px; 
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  color: #fff;
+  padding: 20px;
+  width: 400px;
+  font-family: 'Roboto Slab';
+}
+
+.additional-div {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 20px;
+  width: 400px;
+}
+.title-menu-buffet{
+  margin-top: 20px;
+}
+.menu{
+  background-image:url("/public/image/menu.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  font-size: 18px;
+
+  
+}
+.menu2{
+  margin-top: 50px;
+}
+.menu-buffet-item{
+  font-size: 18px;
+}
+
